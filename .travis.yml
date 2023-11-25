@@ -1,6 +1,6 @@
 language: python
 python:
-  - 3.9
+  - 3.6
 
 # Update pip to the latest version
 before_install:
@@ -12,9 +12,6 @@ install:
 
 script:
   - python -m unittest tests/multiplication_tests.py
-
-before_deploy:
-  - pip install urllib3==1.26.15
 
 deploy:
   provider: pypi
