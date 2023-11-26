@@ -4,7 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "jun-multiply"
-version = "0.0.2"
+dynamic = ["version"]
+
 dependencies = [
   "numpy",
 ]
