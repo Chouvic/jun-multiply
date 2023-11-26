@@ -18,3 +18,6 @@ multiplication = Multiplication(2)
 # Call the multiply method
 result = multiplication.multiply(5)
 ```
+
+Alternatively, see:
+https://readthedocs.org/projects/jun-multiply/
