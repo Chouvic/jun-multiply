@@ -1,7 +1,3 @@
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
 [project]
 name = "jun-multiply"
 dynamic = ["version"]
@@ -25,3 +21,14 @@ classifiers = [
 Homepage = "https://github.com/Chouvic/jun-multiply"
 Issues = "https://github.com/Chouvic/jun-multiply/issues"
 Documentation = "https://readthedocs.org/projects/jun-multiply/"
+
+[build-system]
+requires = [
+    "setuptools>=45",
+    "wheel",
+    "setuptools_scm[toml]>=6.2",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+# Section required to populate package version from Git tag
