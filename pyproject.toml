@@ -8,9 +8,6 @@ version = "0.0.2"
 dependencies = [
   "numpy",
 ]
-dynamic = [
-  "version"
-]
 authors = [
   { name="Jun Zhou", email="author@example.com" },
 ]
